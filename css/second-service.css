@@ -1,0 +1,57 @@
+/* second-service section*/
+.second-service{
+  background: #f9f9f9;
+}
+.second-service-item{
+  width: 50%;
+}
+.second-service-item .section-title
+{
+  text-align: left;
+}
+.second-service-item .line{
+  margin: 0 0 40px 0;
+}
+.second-service-item-desc{
+  padding-right: 20px;
+  font-size: 17px;
+  color: #999;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+.second-service-list{
+  list-style-type: none;
+}
+.second-service-list li{
+  margin-bottom:  10px;
+  color: #999;
+}
+.second-service-list .icon{
+  border: 1px solid #6185ff;
+  color: #6185ff;
+  width:30px;
+  height: 30px;
+  padding: 7px;
+  border-radius: 50%;
+}
+.second-service-item-image{
+  width:100%;
+}
+.second-service-bollets{
+  list-style-type: none;
+  text-align: center;
+}
+.second-service-bollets li {
+  width:10px;
+  height:10px;
+  display: inline-block;
+  background-color: #6185ff;
+  margin: 10px 5px;
+  border-radius: 50%;
+}
+.second-service-bollets li.active{
+  background: #000;
+}
+.second-service-bollets li:hover{
+  background: #000;
+}

@@ -1,0 +1,26 @@
+/* numbers section */
+.numbers{
+  position: relative;
+  background-image: url('../images/background/background2.webp');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 300px;
+}
+.number-item{
+  width: 25%;
+  text-align: center;
+}
+.number-item .icon{
+  color: #6185ff;
+  margin-bottom: 15px;
+}
+.number-item .number-item-title{
+  font-size: 30px;
+  color:#fff;
+  font-weight: bold;
+}
+.number-item .number-item-content{
+  color: #fff;
+  text-transform: capitalize;
+}

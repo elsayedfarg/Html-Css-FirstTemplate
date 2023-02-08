@@ -1,0 +1,87 @@
+/* portofolio section */
+ .portofolio{
+  background: #f9f9f9;
+}
+.portofolio-item{
+  width:30%;
+  position: relative;
+  padding: 20px;/*لجعل الصورة تبرز للداخل*/
+  margin-bottom: 10px;
+}
+.portofolio-item .layer-content{
+  position: absolute;
+  background-color:rgba(0,0,0,0.5);
+  top:0;
+  left: 0;
+  height: 84%;
+  width: 100%;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.5s;
+}
+.portofolio-item:hover .layer-content{
+  opacity: 1;
+  visibility: visible;
+}
+.second-container{
+  position: absolute;
+  width:80%;
+  text-align: center;
+  top:50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.category{
+  color:#6195ff;
+  text-transform: uppercase;
+  display: block;/*we use display:block because the span can not take width so we must transform it from inline to block*/
+  margin-bottom: 5px;
+
+  /* This part is used to make speech rise up when referring to it */
+  position: relative;
+  top:10px;
+  transition:top 0.2s,opacity 0.5s;/*to make it rise slowly*/
+  transition-delay: 0.2s;
+  opacity: 0;
+}
+.layer-content-title{
+  font-size: 20px;
+  color: #fff;
+  margin-bottom: 10px;
+
+  /* This part is used to make speech rise up when referring to it */
+  position: relative;
+  top:10px;
+  transition:top 0.2s,opacity 0.5s;/*to make it rise slowly*/
+  transition-delay: 0.3s;
+  opacity: 0;
+}
+.layer-content .second-container a{
+  color: #fff;
+
+  /* This part is used to make speech rise up when referring to it */
+  position: relative;
+  top:10px;
+  transition:top 0.2,opacity 0.5s;/*to make it rise slowly*/
+  transition-delay: 0.3s;
+  opacity: 0;
+}
+.layer-content .second-container a i{
+  display: inline-block;/* because we want them to still on the same line */
+  width: 40px;
+  height: 40px;
+  line-height: 40px;/* to put the images at the middle you must use line-height the same as parent width and height*/
+  background: #6195ff;
+}
+.portofolio-item:hover .category,.portofolio-item:hover .layer-content-title,.portofolio-item:hover .second-container a{
+  top:0;
+  opacity: 1;
+  cursor: pointer;
+}
+.portofolio-item img{
+  width:100%;
+  margin-bottom: 60px;
+}
+.portofolio-item.mg{
+  margin: 0 2%;
+}

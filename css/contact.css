@@ -1,0 +1,70 @@
+/* contact section */
+.first-section{
+  overflow: hidden;
+}
+.contact-item{
+  width:30%;
+  height: 150px;
+  text-align: center;
+}
+.contact-item .icon{
+  color:#6195ff;
+  padding-top: 5px;
+}
+.contact-item-title{
+  text-transform: capitalize;
+  margin: 15px 0;
+}
+.contact-item-number{
+  margin-bottom: 20px;
+  color: #999;
+}
+.contact-item.mg{
+  margin: 0 5%;
+}
+
+.my-form{
+  padding: 10px;
+  width: 50%;
+  margin: auto;
+}
+.my-form .all{
+  border: 0;
+  margin: 2% 0;
+  background: #DCDCDC;
+  border-radius: 5px;
+  padding: 8px;
+}
+.my-form .name,.my-form .email{
+  width: 49%;
+  display: inline-block;
+  height: 40px;
+}
+.my-form .name{
+  margin-right: 5px;
+}
+.my-form .subject{
+  display: inline-block;
+  width: 100%;
+  height: 40px;
+}
+.my-form .message{
+  font-family: sans-serif;
+  font-size: 15px;
+  width: 100%;
+}
+.third-section{
+  text-align: center;
+}
+.my-button{
+  width:150px;
+  border-radius: 5px;
+  padding: 15px 0;
+  border: 0;
+  margin: 5px;
+  cursor: pointer;
+  font-size: 20px;
+  background: #6195ff;
+  color: #fff;
+  text-transform: capitalize;
+}

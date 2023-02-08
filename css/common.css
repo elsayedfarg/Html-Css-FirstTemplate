@@ -1,0 +1,134 @@
+/* index
+1.common styles
+2.general styles
+3.sections styles
+  3.0 header section
+  3.1 home section
+  3.2 about section
+  3.3 portofolio section
+  3.4 services section
+  3.5 prices section
+  3.6 team section
+  3.7 blog section
+  3.8 contact section
+  3.9 footer section
+*/
+
+/* 1.common styles 2.general styles*/
+ /*
+ 0.overlay
+
+ 1.opacity hover
+
+ 2.section header
+
+ 3.section padding
+
+ 4.hover effect 1(left to right)
+
+ 4.hover effect 2(top to bottom)
+
+ 5.
+ */
+
+ /* 0.overlay */
+ .overlay{
+   position: absolute;
+   width: 100%;
+   height: 100%;
+   top:0;
+   left: 0;
+   background-color: rgba(0,0,0,0.7);
+ }
+ /* 1.opacity hover */
+ .hover-reaction:hover{
+   opacity: 0.6;
+ }
+ /* 2.general css style */
+button{
+  font-family: 'Varela Round', sans-serif;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;/*css 3*/
+}
+.adjust{
+  clear: both;
+}
+h1,h2,h3,h4,h5,h6{
+  font-family: 'montserrat',sans-serif;
+}
+body{
+  font-family: 'Varela Round', sans-serif;
+}
+.container{
+  width:80%;
+  margin: auto;/*to put block element at the middle of the page use margin:auto*/
+}
+a{
+  text-decoration: none;
+}
+.margin-bottom{
+    margin-bottom: 10px;
+}
+.padding-y-axis{
+    padding: 120px 0;
+}
+.section-header .section-title{
+  text-align: center;
+  font-size:2.2rem;
+  text-transform: capitalize;
+  margin-bottom: 10px;
+}
+.section-header .line{
+  background-color: blue;
+  width: 50px;
+  height: 3px;
+  margin: 0 auto 70px auto;
+  display: block;
+}
+.general-color{
+    color: #6195ff;
+}
+.ltr-effect{
+  position: relative;
+}
+.ltr-effect::after{
+  content: "";
+  position: absolute;
+  background: #333;
+  top:0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 0;
+  transition: width 0.5s;
+  z-index: -1;
+}
+.ltr-effect:hover::after{
+  width: 100%;
+}
+.top-to-bottom-effect{
+  position: relative;
+}
+.top-to-bottom-effect::after{
+  content: "";
+  position: absolute;
+  background: #333;
+  top:0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 0;
+  transition: height 0.5s;
+  z-index: -1;
+}
+.top-to-bottom-effect:hover::after{
+  height: 100%;
+}
+.float-left
+{
+  float: left;
+}

@@ -1,0 +1,28 @@
+/* about section */
+.about{
+  height:100vh;
+}
+.about-item{
+  width:30%;
+  text-align: center;
+  border:0.5px solid #a8a8a8;
+  padding: 50px 20px;
+}
+.about-item-awesome
+{
+  margin: 0 5%;/* top and bottom zero left and right 5% */
+}
+.about-item-title{
+  text-transform: capitalize;
+  transition: 0.5s;
+}
+.about-item-desc{
+  line-height: 1.6;
+  color: #8999;
+}
+.ltr-effect:hover .about-item-title {
+  color: #fff;
+}
+.about-item-link{
+  text-transform: capitalize;
+}
